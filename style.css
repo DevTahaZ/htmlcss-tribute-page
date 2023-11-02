@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #212121;
+}
+body {
+    font-family: "El Messiri", "BenchNine", "Patua One", "Roboto", sans-serif;
+    background-color: #2e2e2e;
+    color: #eeeeee;
+    padding: 5%;
+    margin: 5% 20% 20%;
+    border-radius: 15px;
+}
+
+/* HEADING SECTION */
+#heading-section {
+    text-align: center;
+}
+#title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+#title-caption {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+/* IMAGE SECTION */
+#image {
+    height: auto;
+    max-width: 100%;
+}
+img {
+    display: block;
+    border-radius: 10%;
+    filter: drop-shadow(5px 5px 5px #000);
+}
+#img-caption {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+/* TRIBUTE INFO SECTION */
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+}
+ul li {
+    list-style-type: none;
+    margin-bottom: 60px;
+    line-height: 135%;
+}
+.image {
+    margin-bottom: 0;
+}
+.image-caption {
+    text-align: center;
+}
+img {
+    display: block;
+    border-radius: 10%;
+    filter: drop-shadow(5px 5px 5px #000);
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: aqua;
+}
+
+
+
+
+@media (max-width: 600px) {
+    html {
+        display: table;
+        margin: 30px;
+        font-size: 14px;
+    }
+    body {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}
